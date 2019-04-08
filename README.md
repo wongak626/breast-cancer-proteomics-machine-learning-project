@@ -18,9 +18,10 @@ Data for this project was used from this [study](https://www.nature.com/articles
 abbreviated version from [kaggle](https://www.kaggle.com/piotrgrabo/breastcancerproteomes).
 
 ## Results
-Confusion matrix:
+Confusion matrix:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![alt text](https://github.com/wongak626/breast-cancer-proteomics-machine-learning-project/blob/master/plots/Slide26.jpg)
       
-
+      
 ROC curve for prediction model:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![alt text](https://github.com/wongak626/breast-cancer-proteomics-machine-learning-project/blob/master/ROC.png)
 
