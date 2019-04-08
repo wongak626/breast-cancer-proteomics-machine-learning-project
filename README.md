@@ -34,6 +34,7 @@ PCA check for batch effects. Points represent the samples from study:&nbsp;&nbsp
 ![alt text](https://github.com/wongak626/breast-cancer-proteomics-machine-learning-project/blob/master/plots/PCA.png)
 
 Top ranked differentially expressed after calculating t-test for metatistic vs benign samples, and filtering with 0.05 p-value/q-value cutoff:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![alt text](https://github.com/wongak626/breast-cancer-proteomics-machine-learning-project/blob/master/Screen%20Shot%202019-04-05%20at%207.10.57%20AM.png)
 
 Confusion matrix:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
