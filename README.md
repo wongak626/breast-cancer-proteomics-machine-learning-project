@@ -22,7 +22,7 @@ Confusion matrix:
       
 
 ROC curve for prediction model:
-
+![alt text]
 
 
 
