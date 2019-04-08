@@ -45,9 +45,18 @@ classifier.fit(X_train, Y_train)
 
 
 Y_pred = classifier.predict(X_test)
-print(Y_pred)
+
+Y_prob = classifier.predict_proba(X_test)
+preds = Y_prob[:,1]
+
+
 # print(len(Y_pred))
-print(X_test)
+print(Y_prob)
+print(preds)
+print(Y_test)
+
+
+
 
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(Y_test, Y_pred)
@@ -55,6 +64,20 @@ cm = confusion_matrix(Y_test, Y_pred)
 print(cm)
 
 from sklearn import metrics
+from sklearn.metrics import auc
+
+fpr, tpr, threshold = metrics.roc_curve(Y_test, preds,pos_label=2)
+roc_auc = metrics.auc(fpr,tpr)
+
+plt.title('Receiver Operating Characteristic')
+plt.plot(fpr, tpr, 'b', label = 'AUC = %0.2f' % roc_auc)
+plt.legend(loc = 'lower right')
+plt.plot([0, 1], [0, 1],'r--')
+plt.xlim([0, 1])
+plt.ylim([0, 1])
+plt.ylabel('True Positive Rate')
+plt.xlabel('False Positive Rate')
+plt.show()
 
 print("Accuracy:",metrics.accuracy_score(Y_test, Y_pred))
 print("Precision:",metrics.precision_score(Y_test, Y_pred))
