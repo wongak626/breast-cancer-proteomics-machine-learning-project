@@ -8,7 +8,7 @@ The goal of this project was to find a way to use proteomics abundances from tan
 clinical categorical variables, and create a logistic regression model for breast cancer metastases prediction. 
 
 ## Project workflow
-1. Conduct data pre-processing and QC for proteomics profile.
+1. Conduct data pre-processing and QC on proteomics profile data.
 2. Differential Expression analysis using limma to filter for top ranked statistically significant proteins to be put into prediction
    model.
 3. Put pre-processed dataset for mapping into logistic regression modeling algorithm from sklearn python library, for training and testing
