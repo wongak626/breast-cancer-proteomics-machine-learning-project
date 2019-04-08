@@ -9,8 +9,7 @@ clinical categorical variables, and create a logistic regression model for breas
 
 ## Project workflow
 1. Conduct data pre-processing and QC on proteomics profile data.
-2. Differential Expression analysis using limma to filter for top ranked statistically significant proteins to be put into prediction
-   model.
+2. Conduct empirical bayes statistics for differential expression analysis limma to filter for top ranked statistically significant       proteins to be put into prediction model.
 3. Put pre-processed dataset for mapping into logistic regression modeling algorithm from sklearn python library, for training and testing
    prediction model.
 
@@ -22,7 +21,13 @@ clinical categorical variables, and create a logistic regression model for breas
 Data for this project was used from this [study](https://www.nature.com/articles/nature18003). For the sake of convenience, I used an 
 abbreviated version from [kaggle](https://www.kaggle.com/piotrgrabo/breastcancerproteomes).
 
+# Directions
+1. Run 
+
 ## Results
+QC check for log2 ratio median normalized proteomics abundance data:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![alt text](https://github.com/wongak626/breast-cancer-proteomics-machine-learning-project/blob/master/plots/boxplotNormalizedIntensities.png)
+
 Confusion matrix:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![alt text](https://github.com/wongak626/breast-cancer-proteomics-machine-learning-project/blob/master/plots/Slide26.jpg)
       
@@ -34,7 +39,8 @@ ROC curve for prediction model:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 As you can see this mode isn't very accurate as the area under the curve is 0.59. This might be due to a low number of samples, or that the features selected for this model aren't very accurate.
 
 
-## Future Directions
+## Discussion
+
 
 
 
