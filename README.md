@@ -30,10 +30,11 @@ abbreviated version from [kaggle](https://www.kaggle.com/piotrgrabo/breastcancer
 QC check for log2 ratio median normalized proteomics abundance data:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![alt text](https://github.com/wongak626/breast-cancer-proteomics-machine-learning-project/blob/master/plots/boxplotNormalizedIntensities.png)
 
-PCA check for batch effects. Points represent the samples from study.:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+PCA check for batch effects. Points represent the samples from study:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![alt text](https://github.com/wongak626/breast-cancer-proteomics-machine-learning-project/blob/master/plots/PCA.png)
 
-Top ranked differentially expressed
+Top ranked differentially expressed after calculating t-test for metatistic vs benign samples, and filtering with 0.05 p-value/q-value cutoff:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![alt text]()
 
 Confusion matrix:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![alt text](https://github.com/wongak626/breast-cancer-proteomics-machine-learning-project/blob/master/plots/Slide26.jpg)
