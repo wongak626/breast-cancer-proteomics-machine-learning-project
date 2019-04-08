@@ -54,7 +54,7 @@ ROC curve for prediction model:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ## Discussion
 For this project, no standard methods of feature selection was conducted for modeling. Due to the small scope and time constraints, I instead used what was available already in the clinical data, and the top ranked protein hits after filtering from the empirical bayes statistics from limma. Final logistic regression model function for this project looks like so:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-![alt test]()
+![alt test](https://github.com/wongak626/breast-cancer-proteomics-machine-learning-project/blob/master/Slide19.jpg)
 
 The top ranked protein hits after filtering, need to be validated and looked after to see if their functionality is related and if they are part of the same pathway.
 
