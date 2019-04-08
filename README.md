@@ -17,6 +17,10 @@ clinical categorical variables, and create a logistic regression model for breas
 Data for this project was used from this [study](https://www.nature.com/articles/nature18003). For the sake of convenience, I used an 
 abbreviated version from [kaggle](https://www.kaggle.com/piotrgrabo/breastcancerproteomes).
 
+## Results
+
+## Future Directions
+
 
 
 
