@@ -9,7 +9,7 @@ clinical categorical variables, and create a logistic regression model for breas
 
 ## Project workflow
 1. Conduct data pre-processing and QC on proteomics profile data.
-2. Conduct empirical bayes statistics for differential expression analysis limma to filter for top ranked statistically significant       proteins to be put into prediction model.
+2. Conduct empirical bayes statistics for differential expression analysis from limma package to filter for top ranked statistically          significant proteins to be put into prediction model. Used two groups: metastatic vs non-metastatic (benign).
 3. Put pre-processed dataset for mapping into logistic regression modeling algorithm from sklearn python library, for training and testing
    prediction model.
 
@@ -33,6 +33,8 @@ QC check for log2 ratio median normalized proteomics abundance data:&nbsp;&nbsp;
 PCA check for batch effects. Points represent the samples from study.:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![alt text](https://github.com/wongak626/breast-cancer-proteomics-machine-learning-project/blob/master/plots/PCA.png)
 
+Top ranked differentially expressed
+
 Confusion matrix:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![alt text](https://github.com/wongak626/breast-cancer-proteomics-machine-learning-project/blob/master/plots/Slide26.jpg)
       
@@ -40,13 +42,10 @@ Confusion matrix:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ROC curve for prediction model:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![alt text](https://github.com/wongak626/breast-cancer-proteomics-machine-learning-project/blob/master/ROC.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-As you can see this mode isn't very accurate as the area under the curve is 0.59. This might be due to a low number of samples, or that the features selected for this model aren't very accurate.
-
 
 ## Discussion
 
-
+As you can see this mode isn't very accurate as the area under the curve is 0.59. This might be due to a low number of samples, or that the features selected for this model aren't very accurate.
 
 
 
