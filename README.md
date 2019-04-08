@@ -22,7 +22,9 @@ Data for this project was used from this [study](https://www.nature.com/articles
 abbreviated version from [kaggle](https://www.kaggle.com/piotrgrabo/breastcancerproteomes).
 
 # Directions
-1. Run 
+1. Create a data folder for the proteomics profile data and clinical data.
+2. Run limmaTest.R
+3. Run logisticRegressionModel.py
 
 ## Results
 QC check for log2 ratio median normalized proteomics abundance data:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
