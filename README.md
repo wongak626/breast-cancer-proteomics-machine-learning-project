@@ -24,7 +24,7 @@ Confusion matrix:
 ROC curve for prediction model:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![alt text](https://github.com/wongak626/breast-cancer-proteomics-machine-learning-project/blob/master/ROC.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 As you can see this mode isn't very accurate as the area under the curve is 0.59. This might be due to a low number of samples, or that the features selected for this model aren't very accurate.
 
 
