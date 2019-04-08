@@ -21,7 +21,7 @@ abbreviated version from [kaggle](https://www.kaggle.com/piotrgrabo/breastcancer
 Confusion matrix:
       
 
-ROC curve for prediction model:&nbsp;
+ROC curve for prediction model:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![alt text](https://github.com/wongak626/breast-cancer-proteomics-machine-learning-project/blob/master/ROC.png)
 
 
